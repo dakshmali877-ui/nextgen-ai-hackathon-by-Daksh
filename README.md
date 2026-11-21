@@ -2,7 +2,12 @@
 
 > **NextGen AI Hackathon (Problem #2):** An Agentic AI Tutor powered by a persistent **Living Learner Model**, misconception memory, adaptive difficulty scaling, and closed-loop mastery verification.
 
-## 🚀 The Problem
+### 🚀 Live Demo
+👉 **Try AdaptIQ Live:** [https://adaptiq-tutor.streamlit.app/](https://adaptiq-tutor.streamlit.app/)
+
+---
+
+## 🎯 The Problem
 Generic AI chatbots suffer from **amnesia** during exam preparation. When a student gets a Physics or Math question wrong, the bot prints a solution—and forgets *why* the student failed five minutes later.
 
 ## 💡 The Solution: AdaptIQ
@@ -31,7 +36,10 @@ AdaptIQ is an autonomous, tool-calling AI tutor built with **Python, Streamlit, 
 
 ## 💻 Run Locally
 ```bash
-git clone <your-repo-url>
-cd adaptiq-tutor
+git clone https://github.com/dakshmali877-ui/nextgen-ai-hackathon-by-Daksh.git
+cd nextgen-ai-hackathon-by-Daksh
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+Set `GEMINI_API_KEY` as an environment variable (or paste it in the app sidebar).
